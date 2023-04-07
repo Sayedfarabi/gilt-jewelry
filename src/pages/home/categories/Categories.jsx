@@ -1,5 +1,8 @@
 import React from 'react';
 import CategoryCard from '../../../components/categoryCard/CategoryCard';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Categories = () => {
     const categories = [
@@ -34,6 +37,40 @@ const Categories = () => {
             title: "Polki",
         },
     ]
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
 
     return (
         <section className='py-8 md:py-12'>
@@ -41,16 +78,18 @@ const Categories = () => {
                 <div>
                     <h1 className='text-3xl md:text-5xl text-primary text-center py-10'>CATEGORIES</h1>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-3'>
-                    {
-                        categories?.map(category => {
-                            return <CategoryCard
-                                key={category?._id}
-                                category={category}
-                            >
-                            </CategoryCard>
-                        })
-                    }
+                <div>
+                    <Slider {...settings}>
+                        {
+                            categories?.map(category => {
+                                return <CategoryCard
+                                    key={category?._id}
+                                    category={category}
+                                >
+                                </CategoryCard>
+                            })
+                        }
+                    </Slider>
                 </div>
             </div>
 
