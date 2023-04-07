@@ -21,7 +21,7 @@ const Navbar = () => {
                     </div>
                     <Link to={"/"} className="btn btn-ghost normal-case">
                         <div className='text-left leading-none'>
-                            <h1 className='text-2xl leading-none'>GILT</h1>
+                            <h1 className='text-2xl leading-none text-primary'>GILT</h1>
                             <p className='text-sm leading-none'>Jewelry</p>
                         </div>
                     </Link>
@@ -29,11 +29,11 @@ const Navbar = () => {
                 <div className="navbar-end hidden lg:flex">
                     <div>
                         <ul className="menu menu-horizontal px-1">
-                            <li className='mx-2'><Link to={"/"}>Home</Link></li>
-                            <li className='mx-2'><Link to={"/products"}>Products</Link></li>
-                            <li className='mx-2'><Link to={"/bookings"}>Bookings</Link></li>
-                            <li className='mx-2'><Link to={"/contact"}>Contact</Link></li>
-                            <li className='mx-2'><Link to={"/about"}>About</Link></li>
+                            <li className='mx-2 hover:scale-110 hover:text-primary'><Link to={"/"}>Home</Link></li>
+                            <li className='mx-2 hover:scale-110 hover:text-primary'><Link to={"/products"}>Products</Link></li>
+                            <li className='mx-2 hover:scale-110 hover:text-primary'><Link to={"/bookings"}>Bookings</Link></li>
+                            <li className='mx-2 hover:scale-110 hover:text-primary'><Link to={"/contact"}>Contact</Link></li>
+                            <li className='mx-2 hover:scale-110 hover:text-primary'><Link to={"/about"}>About</Link></li>
                         </ul>
                     </div>
                     <div>

@@ -73,7 +73,7 @@ const Categories = () => {
     };
 
     return (
-        <section className='py-8 md:py-12'>
+        <section className='py-8 md:py-12' id='categories'>
             <div>
                 <div
                     data-aos="zoom-in"

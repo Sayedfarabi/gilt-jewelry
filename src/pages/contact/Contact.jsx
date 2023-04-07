@@ -1,10 +1,13 @@
 import React from 'react';
+import ContactUs from '../home/contact-us/ContactUs';
 
 const Contact = () => {
     return (
-        <div>
-            <h1 className='text-center'>This is contact page on gilt gewellery</h1>
-        </div>
+        <section>
+            <div className='mx-4 md:mx-20 py-8 md:py-12'>
+                <ContactUs></ContactUs>
+            </div>
+        </section>
     );
 };
 
