@@ -1,7 +1,18 @@
 import React from 'react';
+import { toast } from 'react-hot-toast';
+import { MdDeleteForever } from 'react-icons/md';
+import { MdPayments } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const ProductTable = ({ product, serial }) => {
     const { image, title, price } = product;
+
+    const deleteHandler = () => {
+        toast.error("This feature is updating...")
+    }
+    const paymentHandler = () => {
+        toast.error("This feature is updating...")
+    }
 
     return (
         <tr className='hover text-sm md:text-md'>
@@ -32,20 +43,20 @@ const ProductTable = ({ product, serial }) => {
             </td>
 
 
-            {
 
-                <td className='text-xl md:text-2xl text-green-600'>
 
-                    <button>
-                        pay
+            <td className='text-xl md:text-2xl text-green-600'>
+                <Link to={"/"}>
+                    <button onClick={paymentHandler}>
+                        <MdPayments></MdPayments>
                     </button>
+                </Link>
+            </td>
 
-                </td>
-            }
 
             <td className='text-xl md:text-2xl text-red-600'>
-                <button>
-                    delete
+                <button onClick={deleteHandler}>
+                    <MdDeleteForever></MdDeleteForever>
                 </button>
             </td>
         </tr>

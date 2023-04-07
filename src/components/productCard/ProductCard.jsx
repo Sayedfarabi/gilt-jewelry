@@ -1,8 +1,11 @@
 import React from 'react';
+import { toast } from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
 
 const ProductCard = ({ product }) => {
     const { image, title, price } = product;
+    const navigate = useNavigate();
 
     const addToCart = (product) => {
         const storeDataString = localStorage.getItem("bookings")
@@ -11,9 +14,9 @@ const ProductCard = ({ product }) => {
         } else {
             const storeData = JSON.parse(storeDataString)
             const data = [...storeData, product]
-            console.log(data);
-
             localStorage.setItem("bookings", JSON.stringify(data))
+            toast.success("Product add to booking list")
+            navigate("/bookings")
         }
 
     }
