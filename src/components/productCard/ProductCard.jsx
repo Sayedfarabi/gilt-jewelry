@@ -3,6 +3,22 @@ import React from 'react';
 
 const ProductCard = ({ product }) => {
     const { image, title, price } = product;
+
+    const addToCart = (product) => {
+        const storeDataString = localStorage.getItem("bookings")
+        if (!storeDataString) {
+            localStorage.setItem("bookings", JSON.stringify([product]))
+        } else {
+            const storeData = JSON.parse(storeDataString)
+            const data = [...storeData, product]
+            console.log(data);
+
+            localStorage.setItem("bookings", JSON.stringify(data))
+        }
+
+    }
+
+
     return (
         <div className='group border-2 h-96 w-56 p-2 mx-auto shadow-lg'>
             <img className='h-56 w-56 group-hover:scale-110 transition-transform duration-300' src={image} alt="Product" />
@@ -15,7 +31,7 @@ const ProductCard = ({ product }) => {
                 </p>
                 <div className='mb-1'>
 
-                    <button className='capitalize btn btn-sm hover:scale-110 transition-transform duration-300'>Buy Now</button>
+                    <button onClick={() => addToCart(product)} className='capitalize btn btn-sm hover:scale-110 transition-transform duration-300'>Buy Now</button>
 
                 </div>
             </div>

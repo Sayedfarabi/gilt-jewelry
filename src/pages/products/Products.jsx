@@ -5,7 +5,7 @@ import ProductCard from '../../components/productCard/ProductCard';
 
 const Products = () => {
     const { loading, products } = useFetch("products.json")
-    console.log(products);
+    // console.log(products);
 
     if (loading) {
         return <Loading></Loading>
