@@ -1,0 +1,226 @@
+[
+    {
+        "_id": "product001",
+        "image": "https://i.pinimg.com/originals/56/37/66/56376681bea0c4135a00f87520e9d02e.png",
+        "title": "Ring",
+        "price": "490",
+        "category": "Rings",
+        "categoryId": "cat001"
+    },
+    {
+        "_id": "product002",
+        "image": "https://e7.pngegg.com/pngimages/482/484/png-clipart-gold-colored-ring-wedding-ring-gold-jewellery-gold-rings-gold-jewelry-ring-gemstone-ring.png",
+        "title": "Ring",
+        "price": "459",
+        "category": "Rings",
+        "categoryId": "cat001"
+    },
+    {
+        "_id": "product003",
+        "image": "https://pngimg.com/d/jewelry_PNG6770.png",
+        "title": "Ring",
+        "price": "549",
+        "category": "Rings",
+        "categoryId": "cat001"
+    },
+    {
+        "_id": "product004",
+        "image": "https://5.imimg.com/data5/CQ/AL/MY-46605893/94-500x500.jpg",
+        "title": "Ring",
+        "price": "519",
+        "category": "Rings",
+        "categoryId": "cat001"
+    },
+    {
+        "_id": "product005",
+        "image": "https://www.kasturidiamond.com/public/product_images/2041.jpg",
+        "title": "Ring",
+        "price": "560",
+        "category": "Rings",
+        "categoryId": "cat001"
+    },
+    {
+        "_id": "product006",
+        "image": "https://e7.pngegg.com/pngimages/242/345/png-clipart-pair-of-clear-gemstone-floral-earrings-earring-diamond-jewellery-diamond-earrings-gemstone-ring.png",
+        "title": "Erring",
+        "price": "500",
+        "category": "Errings",
+        "categoryId": "cat002"
+    },
+    {
+        "_id": "product007",
+        "image": "https://png.pngtree.com/png-clipart/20190921/original/pngtree-real-shot-earrings-decorated-with-a-pair-of-earrings-png-image_4706817.jpg",
+        "title": "Erring",
+        "price": "489",
+        "category": "Errings",
+        "categoryId": "cat002"
+    },
+    {
+        "_id": "product008",
+        "image": "https://png.pngtree.com/png-clipart/20190706/original/pngtree-hand-painted-jewellery-diamond-earrings-png-image_4372052.jpg",
+        "title": "Erring",
+        "price": "510",
+        "category": "Errings",
+        "categoryId": "cat002"
+    },
+    {
+        "_id": "product009",
+        "image": "https://www.pngitem.com/pimgs/m/10-101071_transparent-gold-earrings-png-png-download.png",
+        "title": "Erring",
+        "price": "525",
+        "category": "Errings",
+        "categoryId": "cat002"
+    },
+    {
+        "_id": "product010",
+        "image": "https://img.favpng.com/19/24/5/earring-swarovski-ag-bangle-bracelet-gold-plating-png-favpng-erg3djAnZnP7zcBq6jQckdSsg.jpg",
+        "title": "Bracelet",
+        "price": "720",
+        "category": "Bracelets",
+        "categoryId": "cat003"
+    },
+    {
+        "_id": "product011",
+        "image": "https://w7.pngwing.com/pngs/598/787/png-transparent-gold-colored-bracelet-bangle-jewellery-earring-bracelet-gold-gold-chain-miscellaneous-ring-diamond.png",
+        "title": "Bracelet",
+        "price": "750",
+        "category": "Bracelets",
+        "categoryId": "cat003"
+    },
+    {
+        "_id": "product012",
+        "image": "https://w7.pngwing.com/pngs/162/1008/png-transparent-jewellery-bangle-earring-gold-gold-banner-miscellaneous-ring-bracelet.png",
+        "title": "Bracelet",
+        "price": "950",
+        "category": "Bracelets",
+        "categoryId": "cat003"
+    },
+    {
+        "_id": "product013",
+        "image": "https://e7.pngegg.com/pngimages/296/986/png-clipart-two-gold-colored-bangles-jewellery-jewellery-ring-bracelet.png",
+        "title": "Bracelet",
+        "price": "859",
+        "category": "Bracelets",
+        "categoryId": "cat003"
+    },
+    {
+        "_id": "product013",
+        "image": "https://w7.pngwing.com/pngs/75/788/png-transparent-bracelet-earring-bangle-gold-necklace-gold-bracelet-gemstone-bracelet-diamond-thumbnail.png",
+        "title": "Bracelet",
+        "price": "710",
+        "category": "Bracelets",
+        "categoryId": "cat003"
+    },
+    {
+        "_id": "product014",
+        "image": "https://w7.pngwing.com/pngs/555/840/png-transparent-necklace-boucheron-pendant-jewellery-earring-necklace-gemstone-ring-bracelet.png",
+        "title": "Necklace",
+        "price": "1200",
+        "category": "Necklaces",
+        "categoryId": "cat004"
+    },
+    {
+        "_id": "product015",
+        "image": "https://w7.pngwing.com/pngs/498/616/png-transparent-gold-colored-chunky-necklace-jewellery-gold-necklace-pendant-gold-necklace-queen-gemstone-leave-the-material-ring-thumbnail.png",
+        "title": "Necklace",
+        "price": "1150",
+        "category": "Necklaces",
+        "categoryId": "cat004"
+    },
+    {
+        "_id": "product016",
+        "image": "https://w7.pngwing.com/pngs/561/75/png-transparent-jewellery-costume-jewelry-necklace-jewelry-miscellaneous-gemstone-diamond-thumbnail.png",
+        "title": "Necklace",
+        "price": "1280",
+        "category": "Necklaces",
+        "categoryId": "cat004"
+    },
+    {
+        "_id": "product017",
+        "image": "https://w7.pngwing.com/pngs/214/569/png-transparent-earring-jewellery-necklace-jewelry-design-designer-indian-jewelry-gemstone-diamond-gold.png",
+        "title": "Necklace",
+        "price": "1040",
+        "category": "Necklaces",
+        "categoryId": "cat004"
+    },
+    {
+        "_id": "product018",
+        "image": "https://png.pngitem.com/pimgs/s/117-1171718_diamond-necklace-png-transparent-png-download-transparent-background.png",
+        "title": "Necklace",
+        "price": "760",
+        "category": "Necklaces",
+        "categoryId": "cat004"
+    },
+    {
+        "_id": "product020",
+        "image": "https://www.vhv.rs/dpng/d/525-5251641_horn-and-bone-tribal-pattern-necklace-horn-bone.png",
+        "title": "Tribal",
+        "price": "260",
+        "category": "Tribal",
+        "categoryId": "cat005"
+    },
+    {
+        "_id": "product021",
+        "image": "https://img.favpng.com/20/24/25/necklace-tribe-gemstone-png-favpng-UQvV3XmEf5K7Ssjr1CjmEZxd6.jpg",
+        "title": "Tribal",
+        "price": "240",
+        "category": "Tribal",
+        "categoryId": "cat005"
+    },
+    {
+        "_id": "product022",
+        "image": "https://www.pngkey.com/png/full/371-3718436_handicrafts-villa-handmade-tribal-metal-jewellery-jewellery.png",
+        "title": "Tribal",
+        "price": "225",
+        "category": "Tribal",
+        "categoryId": "cat005"
+    },
+    {
+        "_id": "product023",
+        "image": "https://e7.pngegg.com/pngimages/160/390/png-clipart-necklace-earring-bracelet-handmade-jewelry-jewellery-blue-caterpillar-gemstone-ring-thumbnail.png",
+        "title": "Tribal",
+        "price": "180",
+        "category": "Tribal",
+        "categoryId": "cat005"
+    },
+    {
+        "_id": "product024",
+        "image": "https://i.etsystatic.com/9603196/r/il/c76ec3/3553194437/il_570xN.3553194437_1nku.jpg",
+        "title": "Tribal",
+        "price": "150",
+        "category": "Tribal",
+        "categoryId": "cat005"
+    },
+    {
+        "_id": "product025",
+        "image": "https://www.pngimages.pics/images/quotes/english/general/tribal-necklace-png-transparent-clipart-52650-268415.png",
+        "title": "Tribal",
+        "price": "120",
+        "category": "Tribal",
+        "categoryId": "cat005"
+    },
+    {
+        "_id": "product026",
+        "image": "https://w7.pngwing.com/pngs/663/334/png-transparent-earring-gemstone-jewellery-kundan-jadau-gemstone-gemstone-bracelet-hand-thumbnail.png",
+        "title": "Polki",
+        "price": "120",
+        "category": "Polki",
+        "categoryId": "cat006"
+    },
+    {
+        "_id": "product027",
+        "image": "https://www.kalashajewels.com/images/jadau/Jadau%20Ear%20Rings.png",
+        "title": "Polki",
+        "price": "125",
+        "category": "Polki",
+        "categoryId": "cat006"
+    },
+    {
+        "_id": "product028",
+        "image": "https://www.kalashajewels.com/images/jadau/Jadau%20Ear%20Rings.png",
+        "title": "Polki",
+        "price": "125",
+        "category": "Polki",
+        "categoryId": "cat006"
+    }
+]
