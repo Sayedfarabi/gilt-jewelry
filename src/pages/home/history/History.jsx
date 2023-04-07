@@ -4,7 +4,11 @@ const History = () => {
     return (
         <section className='py-8 md:py-16'>
             <div className='flex flex-col md:flex-row justify-between items-center mx-2 md:mx-6'>
-                <div className='w-full md:w-1/2'>
+                <div className='w-full md:w-1/2'
+                    data-aos="fade-right"
+                    data-aos-duration="1500"
+                    data-aos-delay="50"
+                >
                     <div className='flex justify-start items-center'>
                         <div className='mx-auto'>
                             <div>
@@ -26,7 +30,11 @@ const History = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-full md:w-1/2 my-6 md:my-0'>
+                <div className='w-full md:w-1/2 my-6 md:my-0'
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                    data-aos-delay="50"
+                >
                     <div className='relative h-64 md:h-96 w-60 md:w-96 mx-auto'>
                         <div className='absolute h-64 md:h-96 w-60 md:w-96 bg-primary'>
 

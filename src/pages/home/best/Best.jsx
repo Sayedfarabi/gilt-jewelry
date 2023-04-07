@@ -3,7 +3,11 @@ import React from 'react';
 const Best = () => {
     return (
         <section className='py-8 md:py-12'>
-            <div className=''>
+            <div
+                data-aos="fade-right"
+                data-aos-duration="1500"
+                data-aos-delay="50"
+            >
                 <div className='flex flex-col md:flex-row w-4/5 mx-auto '>
                     <div className='mx-2 md:mx-4'>
                         <div className=''>

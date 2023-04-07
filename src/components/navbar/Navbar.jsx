@@ -37,7 +37,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <a href='#categories' className="btn bg-white border border-2 border-black text-black rounded-none">Get started</a>
+                        <a href='#categories' className="btn bg-white border-2 border-primary hover:bg-white text-gray-500 hover:scale-110 rounded-none">Get started</a>
                     </div>
                 </div>
 

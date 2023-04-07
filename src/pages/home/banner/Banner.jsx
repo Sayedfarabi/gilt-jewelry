@@ -4,7 +4,11 @@ import image from '../../../assets/images/banner/banner3.png';
 
 const Banner = () => {
     return (
-        <div className="hero min-h-[65vh]" style={{ backgroundImage: `url(${image})`, height: "100%" }}>
+        <div className="hero min-h-[65vh]" style={{ backgroundImage: `url(${image})`, height: "100%" }}
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="50"
+        >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">

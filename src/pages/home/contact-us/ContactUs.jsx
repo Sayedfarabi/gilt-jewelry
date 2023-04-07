@@ -4,10 +4,10 @@ const ContactUs = () => {
     return (
         <section className='  py-12'>
             <div
-            // data-aos="fade-up"
-            // data-aos-anchor-placement="center-bottom"
-            // data-aos-duration="1500"
-            // data-aos-delay="50"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-duration="1500"
+                data-aos-delay="50"
             >
                 <div className='text-center text-primary'>
                     <h4 className='text-3xl font-bold'><em>CONTACT ME</em></h4>

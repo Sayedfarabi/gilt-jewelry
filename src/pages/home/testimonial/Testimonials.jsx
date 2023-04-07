@@ -60,10 +60,17 @@ const Testimonials = () => {
     ]
     return (
         <section className='py-8 md:py-12'>
-            <div>
+            <div
+                data-aos="fade-down"
+                data-aos-duration="1500"
+                data-aos-delay="50">
                 <h1 className='text-3xl md:text-5xl text-center my-8 md:my-12 text-primary'>TESTIMONIALS</h1>
             </div>
-            <div className="carousel w-full">
+            <div className="carousel w-full"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                data-aos-delay="50"
+            >
                 {
                     testimonialsData &&
                     testimonialsData.map(data => {

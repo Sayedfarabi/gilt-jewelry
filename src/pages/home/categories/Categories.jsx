@@ -75,10 +75,18 @@ const Categories = () => {
     return (
         <section className='py-8 md:py-12'>
             <div>
-                <div>
+                <div
+                    data-aos="zoom-in"
+                    data-aos-duration="1500"
+                    data-aos-delay="50"
+                >
                     <h1 className='text-3xl md:text-5xl text-primary text-center py-10'>CATEGORIES</h1>
                 </div>
-                <div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                    data-aos-delay="50"
+                >
                     <Slider {...settings}>
                         {
                             categories?.map(category => {
