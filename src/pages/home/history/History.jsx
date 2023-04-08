@@ -16,14 +16,14 @@ const History = () => {
                             </div>
                             <div className='flex flex-col md:flex-row justify-between items-center'>
                                 <div className='w-full text-center md:text-start my-3 md:my-0 md:w-48'>
-                                    <h3 className='p-2 md:py-4 text-xl md:text-2xl text-primary'>Since. 1984</h3>
-                                    <p className='p-2 md:py-4 '>The company was born out of a desire to create functional</p>
-                                    <p className='p-2 md:py-4 font-medium'>START FOUNDATION</p>
+                                    <h3 className='mb-2 md:mb-3 text-xl md:text-2xl text-primary'>Since. 1984</h3>
+                                    <p className='mb-2 md:mb-3 '>The company was born out of a desire to create functional</p>
+                                    <p className='mb-2 md:mb-3 font-medium'>START FOUNDATION</p>
                                 </div>
                                 <div className='w-full text-center md:text-start my-3 md:my-0 md:w-48'>
-                                    <h3 className='mb-2 md:mb-4 text-xl md:text-2xl text-primary'>Since. 1984</h3>
-                                    <p className='mb-2 md:mb-4 '>The company was born out of a desire to create functional</p>
-                                    <p className='mb-2 md:mb-4 font-medium'>START FOUNDATION</p>
+                                    <h3 className='mb-2 md:mb-3 text-xl md:text-2xl text-primary'>Since. 1984</h3>
+                                    <p className='mb-2 md:mb-3 '>The company was born out of a desire to create functional</p>
+                                    <p className='mb-2 md:mb-3 font-medium'>START FOUNDATION</p>
                                 </div>
 
                             </div>
